@@ -11,6 +11,8 @@ from datetime import *
 from pandas_datareader import data as pdr
 import streamlit as st
 
+#setting icon and name for the webpage.
+st.set_page_config (page_title='Stock App',page_icon='st.ico',layout="wide",initial_sidebar_state="expanded")
 
 # Creating the sidebar for Stock Market Data Analysis and Visualization
 st.sidebar.markdown('''# :center[Stock Market Data Analysis and Visualization]''')
